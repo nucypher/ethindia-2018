@@ -8,7 +8,17 @@
 Still, the best is to work on something which _you_ think is the best to work on. Be it decentralized e2e encrypted group chat, or an app to share your medical data, or maybe something we cannot even think of yet!
 
 # Useful links
-...
+* [Mock-net](https://github.com/nucypher/mock-net/) - you can start here to familiarize yourself with main concepts;
+* [Proxy re-encryption library Umbral](https://github.com/nucypher/pyUmbral/);
+* [Ubral spec](https://github.com/nucypher/umbral-doc/) - if you want to look at maths behind Umbral;
+* [NuCypher re-encryption netowork](https://github.com/nucypher/nucypher/) - The re-encryption network itself.
+
+# Community Links:
+* Our main development channel on [Discord](https://discord.gg/7rmXa3S) - feel free to jump in with technical questions;
+* Our [website](https://nucypher.com/);
+* [Whitepaper](https://www.nucypher.com/whitepapers/english.pdf);
+* [Token economics paper](https://github.com/nucypher/mining-paper/blob/master/mining-paper.pdf);
+
 
 # Where to start
 ...
