@@ -21,4 +21,28 @@ Still, the best is to work on something which _you_ think is the best to work on
 
 
 # Where to start
-...
+First of all, go to the [mock-net](https://github.com/nucypher/mock-net/) repository and take your time to follow `umbral-demo.py`.
+Follow the installation instructions in the repository `README`.
+
+If you want to build with "real" nucypher network, do the following:
+```
+git clone https://github.com/nucypher/nucypher.git  # clone NuCypher repository
+cd nucypher
+git checkout federated  # We need a federated branch which isn't using blockchain
+pipenv install --dev --three --skip-lock
+pipenv shell
+pip3 install -e .
+# ok, now you have nucypher installed in virtual environment
+
+# prepare to run several nodes locally
+cd examples
+mkdir examples-runtime-cruft
+# run the following in several terminals
+python3 run_ursula_with_rest_and_dht_but_no_mining.py 3500  # <- seed node
+python3 run_ursula_with_rest_and_dht_but_no_mining.py 3501 3500
+python run_ursula_with_rest_and_dht_but_no_mining.py 3502 3500
+
+# now get some text to re-encrypt and run the demo
+wget https://www.gutenberg.org/files/2701/old/moby10b.txt
+python3 finnegans-wake-federated.py moby10b.txt 3501
+```
