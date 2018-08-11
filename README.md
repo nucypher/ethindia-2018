@@ -40,9 +40,11 @@ mkdir examples-runtime-cruft
 # run the following in several terminals
 python3 run_ursula_with_rest_and_dht_but_no_mining.py 3500  # <- seed node
 python3 run_ursula_with_rest_and_dht_but_no_mining.py 3501 3500
-python run_ursula_with_rest_and_dht_but_no_mining.py 3502 3500
+python3 run_ursula_with_rest_and_dht_but_no_mining.py 3502 3500
 
 # now get some text to re-encrypt and run the demo
 wget https://www.gutenberg.org/files/2701/old/moby10b.txt
 python3 finnegans-wake-federated.py moby10b.txt 3501
 ```
+
+The mock-net repository also has a toy version of "network" which is just an object you interact with instead of the real network
