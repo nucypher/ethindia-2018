@@ -1,2 +1,10 @@
-# ethindia-2018
-Guidelines for the hackathon
+# ETHIndia 2018 hackathon guidelines
+
+# Possible tasks
+..
+
+# Useful links
+...
+
+# Where to start
+...
