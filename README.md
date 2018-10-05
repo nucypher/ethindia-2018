@@ -1,4 +1,4 @@
-# ETHIndia 2018 hackathon guidelines
+# Hackathon guidelines
 
 # Possible tasks
 * The best is to build some end-to-end encrypted multi-user app which _you_ think is the best to build using NuCypher;
@@ -10,9 +10,9 @@ Still, the best is to work on something which _you_ think is the best to work on
 # Useful links
 * [Mock-net](https://github.com/nucypher/mock-net/) - you can start here to familiarize yourself with main concepts;
 * [Proxy re-encryption library Umbral](https://github.com/nucypher/pyUmbral/);
-* [Umbral spec](https://github.com/nucypher/umbral-doc/) - if you want to look at maths behind Umbral;
+* [Umbral spec](https://github.com/nucypher/umbral-doc/) - if you want to look at the math behind Umbral;
 * [NuCypher re-encryption netowork](https://github.com/nucypher/nucypher/) - The re-encryption network itself;
-* [Slides](https://github.com/nucypher/slides/tree/ethindia) explaining proxy re-encryption and NuCypher.
+* [Slides](https://github.com/nucypher/slides/blob/master/slides.pdf) explaining proxy re-encryption and NuCypher.
 
 # Community Links:
 * Our main development channel on [Discord](https://discord.gg/7rmXa3S) - feel free to jump in with technical questions;
