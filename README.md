@@ -24,8 +24,11 @@ Still, the best is to work on something which _you_ think is the best to work on
 
 
 # Where to start
-First of all, go to the [mock-net](https://github.com/nucypher/mock-net/) repository and take your time to follow `umbral-demo.py`.
-Follow the installation instructions in the repository `README`.
+First of all, go to the [mock-net](https://github.com/nucypher/mock-net/) repository and take your time to follow `umbral-demo.py` or `test_demo.py`, as well as you're free to modify `nucypher.py` which is the "mock network" itself.
+After cloning, you can install the dependencies by running:
+```
+pipenv install --dev --three --skip-lock
+```
 
 If you want to build with "real" nucypher network, do the following:
 ```
