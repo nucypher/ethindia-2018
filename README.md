@@ -11,7 +11,9 @@ Still, the best is to work on something which _you_ think is the best to work on
 * [Mock-net](https://github.com/nucypher/mock-net/) - you can start here to familiarize yourself with main concepts;
 * [Proxy re-encryption library Umbral](https://github.com/nucypher/pyUmbral/);
 * [Umbral spec](https://github.com/nucypher/umbral-doc/) - if you want to look at the math behind Umbral;
-* [NuCypher re-encryption netowork](https://github.com/nucypher/nucypher/) - The re-encryption network itself;
+* [NuCypher re-encryption network](https://github.com/nucypher/nucypher/) - The re-encryption network itself;
+* [nuFHE](https://github.com/nucypher/nufhe/) - A GPU-accelerated fully homomorphic encryption library;
+* [Sputnik](https://github.com/nucypher/sputnik/) - An assembly language and interpreter used to execute the first-ever fully homomorphic smart contract;
 * [Slides](https://github.com/nucypher/slides/blob/master/slides.pdf) explaining proxy re-encryption and NuCypher.
 
 # Community Links:
