@@ -24,33 +24,23 @@ Still, the best is to work on something which _you_ think is the best to work on
 
 
 # Where to start
-First of all, go to the [mock-net](https://github.com/nucypher/mock-net/) repository and take your time to follow `umbral-demo.py` or `test_demo.py`, as well as you're free to modify `nucypher.py` which is the "mock network" itself.
+If you want to build with "real" nucypher network, do the following:
+```
+virtualenv _venv -p python3
+source _venv/bin/activate
+pip3 install pip3 install git+https://github.com/nucypher/nucypher.git@federated
+
+git clone https://github.com/nucypher/nucypher.git
+cd nucypher
+git checkout federated
+cd examples/finnegans_wake_demo
+python3 finnegans-wake-concise-demo.py
+```
+
+Finnegan's Wake demo re-encrypts every line of Finnegan's Wake using NuCypher for that. There is another [Heartbeat Demo](https://github.com/cygnusv/nucypher/tree/heart_of_the_sunrise/examples/heartbeat_demo) which you may want to check.
+
+If you want to do low-level stuff without getting into the weeds of NuCypher code, you can use "mock-net" instead of the real network and change its code when you need. Go to the [mock-net](https://github.com/nucypher/mock-net/) repository and take your time to follow `umbral-demo.py` or `test_demo.py`, as well as you're free to modify `nucypher.py` which is the "mock network" itself.
 After cloning, you can install the dependencies by running:
 ```
 pipenv install --dev --three --skip-lock
 ```
-
-If you want to build with "real" nucypher network, do the following:
-```
-git clone https://github.com/nucypher/nucypher.git  # clone NuCypher repository
-cd nucypher
-git checkout federated  # We need a federated branch which isn't using blockchain
-pipenv install --dev --three --skip-lock
-pipenv shell
-pip3 install -e .
-# ok, now you have nucypher installed in virtual environment
-
-# prepare to run several nodes locally
-cd examples
-mkdir examples-runtime-cruft
-# run the following in several terminals
-python3 run_ursula_with_rest_and_dht_but_no_mining.py 3500  # <- seed node
-python3 run_ursula_with_rest_and_dht_but_no_mining.py 3501 3500
-python3 run_ursula_with_rest_and_dht_but_no_mining.py 3502 3500
-
-# now get some text to re-encrypt and run the demo
-wget https://www.gutenberg.org/files/2701/old/moby10b.txt
-python3 finnegans-wake-federated.py moby10b.txt 3501
-```
-
-The mock-net repository also has a toy version of "network" which is just an object you interact with instead of the real network
