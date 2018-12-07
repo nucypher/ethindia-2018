@@ -34,6 +34,7 @@ git clone https://github.com/nucypher/nucypher.git
 cd nucypher
 git checkout federated
 cd examples/finnegans_wake_demo
+./download_finnegans_wake.sh
 python3 finnegans-wake-concise-demo.py
 ```
 
