@@ -15,7 +15,7 @@ Still, the best is to work on something which _you_ think is the best to work on
 * [NuCypher re-encryption network](https://github.com/nucypher/nucypher/) - The re-encryption network itself;
 * [nuFHE](https://github.com/nucypher/nufhe/) - A GPU-accelerated fully homomorphic encryption library;
 * [Sputnik](https://github.com/nucypher/sputnik/) - An assembly language and interpreter used to execute the first-ever fully homomorphic smart contract;
-* [Slides](https://github.com/nucypher/slides/blob/master/slides.pdf) explaining proxy re-encryption and NuCypher.
+* [Slides](https://github.com/nucypher/slides/blob/ETHSingapore/slides.pdf) explaining proxy re-encryption and NuCypher.
 
 # Community Links:
 * Our main development channel on [Discord](https://discord.gg/7rmXa3S) - feel free to jump in with technical questions;
