@@ -3,15 +3,15 @@
 ## Technologies
 
 ### Proxy Re-encryption
-  * [Whitepaper](https://github.com/nucypher/whitepaper/blob/master/whitepaper.pdf) - A proxy re-encryption network to empower privacy  in decentralized systems
+  * [Whitepaper](https://github.com/nucypher/whitepaper/blob/master/whitepaper.pdf) - A proxy re-encryption network to empower privacy in decentralized systems
   * [Umbral Specification](https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf) - if you want to look at the math behind Umbral
   * [Presentation Slides](https://github.com/nucypher/slides/blob/ETHSingapore/slides.pdf) explaining proxy re-encryption and NuCypher
-  * [pyUmbral](https://github.com/nucypher/pyUmbral/) - python reference implementation of umbral
+  * [pyUmbral](https://github.com/nucypher/pyUmbral/) - Python reference implementation of Umbral, our threshold proxy re-encryption scheme
   * [NuCypher Network](https://github.com/nucypher/nucypher/) - the proxy re-encryption network itself 
  
 ### Fully Homomorphic Encryption
-  * [nuFHE](https://github.com/nucypher/nufhe/) - a GPU-accelerated fully homomorphic encryption library
-  * [Sputnik](https://github.com/nucypher/sputnik/) - an assembly language and interpreter built using nuFHE to execute the first-ever fully homomorphic smart contract
+  * [NuFHE](https://github.com/nucypher/nufhe/) - a GPU-accelerated fully homomorphic encryption library
+  * [Sputnik](https://github.com/nucypher/sputnik/) - an assembly language and interpreter built using NuFHE to execute the first-ever fully homomorphic smart contract
 
 
 ## Community Links
