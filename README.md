@@ -11,7 +11,7 @@
  
 ### Fully Homomorphic Encryption
   * [NuFHE](https://github.com/nucypher/nufhe/) - a GPU-accelerated fully homomorphic encryption library
-  * [Sputnik](https://github.com/nucypher/sputnik/) - an assembly language and interpreter built using nuFHE to execute the first-ever fully homomorphic smart contract
+  * [Sputnik](https://github.com/nucypher/sputnik/) - an assembly language and interpreter built using NuFHE to execute the first-ever fully homomorphic smart contract
 
 
 ## Community Links
