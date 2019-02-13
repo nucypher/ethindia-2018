@@ -10,7 +10,7 @@
   * [NuCypher Network](https://github.com/nucypher/nucypher/) - the proxy re-encryption network itself 
  
 ### Fully Homomorphic Encryption
-  * [nuFHE](https://github.com/nucypher/nufhe/) - a GPU-accelerated fully homomorphic encryption library
+  * [NuFHE](https://github.com/nucypher/nufhe/) - a GPU-accelerated fully homomorphic encryption library
   * [Sputnik](https://github.com/nucypher/sputnik/) - an assembly language and interpreter built using nuFHE to execute the first-ever fully homomorphic smart contract
 
 
