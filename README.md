@@ -1,48 +1,45 @@
-# Hackathon guidelines
+# NuCypher Hackathon Guidelines
 
-# Possible tasks
-* The best is to build some end-to-end encrypted multi-user app which _you_ think is the best to build using NuCypher;
-* Making a UI for staking. This requires understanding [token issuance model](https://blog.nucypher.com/nucypher-staking-economics-a7bb56b20716). If you have time, you may look at the [smart contracts](https://github.com/nucypher/nucypher/blob/master/nucypher/blockchain/eth/sol/source/contracts/MinersEscrow.sol) which control the staking parameters and their corresponding Python wrappers.
+## Technologies
+
+### Proxy Re-encryption
+  * [Whitepaper](https://github.com/nucypher/whitepaper/blob/master/whitepaper.pdf) - A proxy re-encryption network to empower privacy  in decentralized systems
+  * [Umbral Specification](https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf) - if you want to look at the math behind Umbral
+  * [Presentation Slides](https://github.com/nucypher/slides/blob/ETHSingapore/slides.pdf) explaining proxy re-encryption and NuCypher
+  * [pyUmbral](https://github.com/nucypher/pyUmbral/) - python reference implementation of umbral
+  * [NuCypher Network](https://github.com/nucypher/nucypher/) - the proxy re-encryption network itself 
+ 
+### Fully Homomorphic Encryption
+  * [nuFHE](https://github.com/nucypher/nufhe/) - a GPU-accelerated fully homomorphic encryption library
+  * [Sputnik](https://github.com/nucypher/sputnik/) - an assembly language and interpreter built using nuFHE to execute the first-ever fully homomorphic smart contract
+
+
+## Community Links:
+* [Website](https://nucypher.com/)
+* [Discord](https://discord.gg/7rmXa3S) - our main development channel; feel free to jump in with technical questions for our team
+
+
+## Buidling
+
+### Documentation
+Check out our [development guide](https://nucypher.readthedocs.io/en/latest/) to start buidling with NuCypher.
+ 
+### Running a Local Network
+Simulate the NuCypher network locally by running a [local development fleet](https://nucypher.readthedocs.io/en/latest/demos/local_fleet_demo.html#local-development-fleet-testing). 
+
+### Sample Demos
+Sample demo applications are available:
+* [Finnegan's Wake](https://nucypher.readthedocs.io/en/latest/demos/finnegans_wake_demo.html)
+* [Heartbeat Demo](https://nucypher.readthedocs.io/en/latest/demos/heartbeat_demo.html)
+
+### Possible Tasks
+* The best task is to build some end-to-end encrypted multi-user app which _you_ think is best to build using NuCypher
+* Making a UI for staking. This requires understanding [token issuance model](https://blog.nucypher.com/nucypher-staking-economics-a7bb56b20716). If you have time, you may look at the [smart contracts](https://github.com/nucypher/nucypher/blob/master/nucypher/blockchain/eth/sol/source/contracts/MinersEscrow.sol) which control the staking parameters and their corresponding Python wrappers
 * Wrapper to interact with NuCypher network from Go, node.js, ...
-* Extension to interact with NuCypher network in browsers.
+* Extension to interact with NuCypher network in browsers
 
-Still, the best is to work on something which _you_ think is the best to work on. Be it decentralized e2e encrypted group chat, or an app to share your medical data, or maybe something we cannot even think of yet!
+Still, it is best is to work on something which _you_ are interested in. Be it a decentralized e2e encrypted group 
+chat, or an app to share your medical data, or maybe something that hasn't even been thought of as yet!
 
-# Useful links
-* [Mock-net](https://github.com/nucypher/mock-net/) - you can start here to familiarize yourself with main concepts;
-* [Proxy re-encryption library Umbral](https://github.com/nucypher/pyUmbral/);
-* [Umbral spec](https://github.com/nucypher/umbral-doc/) - if you want to look at the math behind Umbral;
-* [NuCypher re-encryption network](https://github.com/nucypher/nucypher/) - The re-encryption network itself;
-* [nuFHE](https://github.com/nucypher/nufhe/) - A GPU-accelerated fully homomorphic encryption library;
-* [Sputnik](https://github.com/nucypher/sputnik/) - An assembly language and interpreter used to execute the first-ever fully homomorphic smart contract;
-* [Slides](https://github.com/nucypher/slides/blob/ETHSingapore/slides.pdf) explaining proxy re-encryption and NuCypher.
+**Happy Hacking!**
 
-# Community Links:
-* Our main development channel on [Discord](https://discord.gg/7rmXa3S) - feel free to jump in with technical questions;
-* Our [website](https://nucypher.com/);
-* [Whitepaper](https://www.nucypher.com/whitepapers/english.pdf);
-* [Token economics paper](https://github.com/nucypher/mining-paper/blob/master/mining-paper.pdf);
-
-
-# Where to start
-If you want to build with "real" nucypher network, do the following:
-```
-virtualenv _venv -p python3
-source _venv/bin/activate
-pip3 install pip3 install git+https://github.com/nucypher/nucypher.git@federated
-
-git clone https://github.com/nucypher/nucypher.git
-cd nucypher
-git checkout federated
-cd examples/finnegans_wake_demo
-./download_finnegans_wake.sh
-python3 finnegans-wake-concise-demo.py
-```
-
-Finnegan's Wake demo re-encrypts every line of Finnegan's Wake using NuCypher for that. There is another [Heartbeat Demo](https://github.com/cygnusv/nucypher/tree/heart_of_the_sunrise/examples/heartbeat_demo) which you may want to check.
-
-If you want to do low-level stuff without getting into the weeds of NuCypher code, you can use "mock-net" instead of the real network and change its code when you need. Go to the [mock-net](https://github.com/nucypher/mock-net/) repository and take your time to follow `umbral-demo.py` or `test_demo.py`, as well as you're free to modify `nucypher.py` which is the "mock network" itself.
-After cloning, you can install the dependencies by running:
-```
-pipenv install --dev --three --skip-lock
-```
