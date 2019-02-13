@@ -47,7 +47,7 @@ Hi hackers,
 
 [Welcome](https://blog.nucypher.com/buidl-the-future-of-privacy-at-ethdenver-a4fc8af7fb11) to ETHDenver 2019!
 
-NuCypher is putting out a bounty for ETHDenver totalling $5000. You can learn more about our bounty from the video below: <br/>
+NuCypher is putting out a bounty for ETHDenver totalling $5000. See our confidential bounty briefing below:: <br/>
 [![ETHDenver Hackathon Bounty Explainer](http://img.youtube.com/vi/i-Dq_bNsTvY/0.jpg)](http://www.youtube.com/watch?v=i-Dq_bNsTvY)
 
 **HAPPY HACKING!**
