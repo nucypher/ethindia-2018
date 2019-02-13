@@ -41,5 +41,13 @@ Sample demo applications are available:
 Still, it is best is to work on something which _you_ are interested in. Be it a decentralized e2e encrypted group 
 chat, or an app to share your medical data, or maybe something that hasn't even been thought of as yet!
 
-**HAPPY HACKING!**
+### ETHDenver 2019
 
+Hi hackers,
+
+[Welcome](https://blog.nucypher.com/buidl-the-future-of-privacy-at-ethdenver-a4fc8af7fb11) to ETHDenver 2019!
+
+NuCypher is putting out a bounty for ETHDenver totalling $5000. You can learn more about our bounty from the video below: <br/>
+[![ETHDenver Hackathon Bounty Explainer](http://img.youtube.com/vi/i-Dq_bNsTvY/0.jpg)](http://www.youtube.com/watch?v=i-Dq_bNsTvY)
+
+**HAPPY HACKING!**
