@@ -14,7 +14,7 @@
   * [Sputnik](https://github.com/nucypher/sputnik/) - an assembly language and interpreter built using nuFHE to execute the first-ever fully homomorphic smart contract
 
 
-## Community Links:
+## Community Links
 * [Website](https://nucypher.com/)
 * [Discord](https://discord.gg/7rmXa3S) - our main development channel; feel free to jump in with technical questions for our team
 
@@ -41,5 +41,5 @@ Sample demo applications are available:
 Still, it is best is to work on something which _you_ are interested in. Be it a decentralized e2e encrypted group 
 chat, or an app to share your medical data, or maybe something that hasn't even been thought of as yet!
 
-**Happy Hacking!**
+**HAPPY HACKING!**
 
