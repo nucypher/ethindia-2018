@@ -34,8 +34,22 @@ NuCypher is putting out a bounty for ETHDenver totaling $5000. See our confident
 ### Documentation
 Check out our [development guide](https://nucypher.readthedocs.io/en/latest/) to start buidling with NuCypher.
  
-### Running a Local Network
+### Connecting to a Fleet
+
+#### Running a Local Network
 Simulate the NuCypher network locally by running a [local development fleet](https://nucypher.readthedocs.io/en/latest/demos/local_fleet_demo.html#local-development-fleet-testing). 
+
+#### Connecting ETHDenver Federated Testnet
+
+Alternatively, instead of running a local nucypher development fleet of Ursulas, 
+you can connect your node to our dedicated ETHDenver hackathon testnet.
+```
+(nucypher) $ nucypher ursula init --federated-only
+...
+(nucypher) $ nucypher ursula run --network eth_denver --teacher-uri 3.17.164.0:9151
+```
+
+For more detailed information see our official [documentation](https://docs.nucypher.com/en/latest/guides/ursula_configuration_guide.html)
 
 ### Sample Demos
 Sample demo applications are available:
