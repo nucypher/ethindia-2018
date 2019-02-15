@@ -13,11 +13,11 @@ NuCypher is putting out a bounty for ETHDenver totaling $5000. See our confident
 ## Technologies
 
 ### Proxy Re-encryption
+  * [NuCypher Network](https://github.com/nucypher/nucypher/) - the proxy re-encryption network itself 
+  * [pyUmbral](https://github.com/nucypher/pyUmbral/) - Python reference implementation of Umbral, our threshold proxy re-encryption scheme
+  * [Presentation Slides](https://github.com/nucypher/slides/blob/ETHSingapore/slides.pdf) explaining proxy re-encryption and NuCypher
   * [Whitepaper](https://github.com/nucypher/whitepaper/blob/master/whitepaper.pdf) - A proxy re-encryption network to empower privacy in decentralized systems
   * [Umbral Specification](https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf) - if you want to look at the math behind Umbral
-  * [Presentation Slides](https://github.com/nucypher/slides/blob/ETHSingapore/slides.pdf) explaining proxy re-encryption and NuCypher
-  * [pyUmbral](https://github.com/nucypher/pyUmbral/) - Python reference implementation of Umbral, our threshold proxy re-encryption scheme
-  * [NuCypher Network](https://github.com/nucypher/nucypher/) - the proxy re-encryption network itself 
  
 ### Fully Homomorphic Encryption
   * [NuFHE](https://github.com/nucypher/nufhe/) - a GPU-accelerated fully homomorphic encryption library
