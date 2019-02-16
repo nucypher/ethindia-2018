@@ -39,14 +39,17 @@ Check out our [development guide](https://nucypher.readthedocs.io/en/latest/) to
 #### Running a Local Network
 Simulate the NuCypher network locally by running a [local development fleet](https://nucypher.readthedocs.io/en/latest/demos/local_fleet_demo.html#local-development-fleet-testing). 
 
-#### Connecting ETHDenver Federated Testnet
+#### Connecting ETHDenver Federated DevNet
 
 Alternatively, instead of running a local nucypher development fleet of Ursulas, 
 you can connect your node to our dedicated ETHDenver hackathon testnet.
+
+See the network status here: <http://3.17.164.0:12500/>
+
 ```
 (nucypher) $ nucypher ursula init --federated-only
 ...
-(nucypher) $ nucypher ursula run --network eth_denver --teacher-uri 3.17.164.0:9151
+(nucypher) $ nucypher ursula run --network eth_denver --teacher-uri 3.17.78.94:9151
 ```
 
 For more detailed information see our official [documentation](https://docs.nucypher.com/en/latest/guides/ursula_configuration_guide.html)
