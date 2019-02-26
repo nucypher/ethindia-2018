@@ -1,14 +1,10 @@
 # NuCypher Hackathon Guidelines
 
-## ETHDenver 2019
+## Coinlist Build
 
-Hi Bufficorn hackers,
+Hi NuCypherinos,
 
-[Welcome](https://blog.nucypher.com/buidl-the-future-of-privacy-at-ethdenver-a4fc8af7fb11) to ETHDenver 2019!
-
-NuCypher is putting out a bounty for ETHDenver totaling $5000. See our confidential bounty briefing for hackers' eyes only below:: <br/>
-[![ETHDenver Hackathon Bounty Explainer](http://img.youtube.com/vi/i-Dq_bNsTvY/0.jpg)](http://www.youtube.com/watch?v=i-Dq_bNsTvY)
-
+[Welcome](https://blog.nucypher.com/nucypher-coinlist-hackathon-59fe302e14db) to Coinlist + NuCypher Build!
 
 ## Technologies
 
@@ -39,10 +35,10 @@ Check out our [development guide](https://nucypher.readthedocs.io/en/latest/) to
 #### Running a Local Network
 Simulate the NuCypher network locally by running a [local development fleet](https://nucypher.readthedocs.io/en/latest/demos/local_fleet_demo.html#local-development-fleet-testing). 
 
-#### Connecting ETHDenver Federated DevNet
+#### Connecting to the DevNet
 
 Alternatively, instead of running a local nucypher development fleet of Ursulas, 
-you can connect your node to our dedicated ETHDenver hackathon testnet.
+you can connect your node to our dedicated hackathon devnet.
 
 See the network status here: <http://3.17.164.0:12500/>
 
@@ -58,14 +54,5 @@ For more detailed information see our official [documentation](https://docs.nucy
 Sample demo applications are available:
 * [Finnegan's Wake](https://nucypher.readthedocs.io/en/latest/demos/finnegans_wake_demo.html)
 * [Heartbeat Demo](https://nucypher.readthedocs.io/en/latest/demos/heartbeat_demo.html)
-
-### Possible Tasks
-* The best task is to build some end-to-end encrypted multi-user app which _you_ think is best to build using NuCypher
-* Making a UI for staking. This requires understanding [token issuance model](https://blog.nucypher.com/nucypher-staking-economics-a7bb56b20716). If you have time, you may look at the [smart contracts](https://github.com/nucypher/nucypher/blob/master/nucypher/blockchain/eth/sol/source/contracts/MinersEscrow.sol) which control the staking parameters and their corresponding Python wrappers
-* Wrapper to interact with NuCypher network from Go, node.js, ...
-* Extension to interact with NuCypher network in browsers
-
-Still, it is best is to work on something which _you_ are interested in. Be it a decentralized e2e encrypted group 
-chat, or an app to share your medical data, or maybe something that hasn't even been thought of as yet!
 
 **HAPPY HACKING!**
