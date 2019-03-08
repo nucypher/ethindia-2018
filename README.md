@@ -4,7 +4,7 @@
 
 Hi NuCypherinos,
 
-[Welcome](https://blog.nucypher.com/nucypher-coinlist-hackathon-59fe302e14db) to Coinlist + NuCypher Build!
+[Welcome](https://blog.nucypher.com/nucypher-coinlist-hackathon-59fe302e14db) to ETHParis!
 
 ## Technologies
 
@@ -40,12 +40,12 @@ Simulate the NuCypher network locally by running a [local development fleet](htt
 Alternatively, instead of running a local nucypher development fleet of Ursulas, 
 you can connect your node to our dedicated hackathon devnet.
 
-See the network status here: <http://3.17.164.0:12500/>
+See the network status here: 
 
 ```
 (nucypher) $ nucypher ursula init --federated-only
 ...
-(nucypher) $ nucypher ursula run --network eth_denver --teacher-uri 3.17.78.94:9151
+(nucypher) $ nucypher ursula run --network devnet --teacher-uri 18.222.119.242:9151
 ```
 
 For more detailed information see our official [documentation](https://docs.nucypher.com/en/latest/guides/ursula_configuration_guide.html)
