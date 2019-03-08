@@ -4,7 +4,7 @@
 
 Hi NuCypherinos,
 
-[Welcome](https://blog.nucypher.com/nucypher-coinlist-hackathon-59fe302e14db) to ETHParis!
+Welcome to ETHParis!
 
 ## Technologies
 
