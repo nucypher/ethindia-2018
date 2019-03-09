@@ -40,7 +40,7 @@ Simulate the NuCypher network locally by running a [local development fleet](htt
 Alternatively, instead of running a local nucypher development fleet of Ursulas, 
 you can connect your node to our dedicated hackathon devnet.
 
-See the network status here: 
+See the network status here: http://13.59.39.174:12500/
 
 ```
 (nucypher) $ nucypher ursula init --federated-only
