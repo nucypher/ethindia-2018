@@ -1,6 +1,6 @@
 # NuCypher Hackathon Guidelines
 
-## Coinlist Build
+## ETHParis and ETHUofT
 
 Hi NuCypherinos,
 
