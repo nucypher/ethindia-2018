@@ -1,10 +1,10 @@
 # NuCypher Hackathon Guidelines
 
-## ETHParis and ETHUofT
+## CoinList Build
 
 Hi NuCypherinos,
 
-Welcome to ETHParis!
+Welcome to the NuCypher + CoinList Build hackathon! Checkout out the welcome post and hackathon guidelines [here](https://blog.nucypher.com/nucypher-coinlist-hackathon-59fe302e14db).
 
 ## Technologies
 
