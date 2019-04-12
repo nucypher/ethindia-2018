@@ -1,10 +1,10 @@
 # NuCypher Hackathon Guidelines
 
-## CoinList Build
+## Ethereal Virtual Hackathon
 
 Hi NuCypherinos,
 
-Welcome to the NuCypher + CoinList Build hackathon! Checkout out the welcome post and hackathon guidelines [here](https://blog.nucypher.com/nucypher-coinlist-hackathon-59fe302e14db).
+Welcome to the Ethereal Virtual Hackathon! We have two $2,500 bounties: for the best NuCypher-related [tooling](https://github.com/nucypher/hackathon/issues/5) and the [best application](https://github.com/nucypher/hackathon/issues/4) built with NuCypher technology.
 
 ## Technologies
 
