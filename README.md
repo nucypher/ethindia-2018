@@ -1,8 +1,12 @@
 # NuCypher Hackathon Guidelines
 
-## Ethereal Virtual Hackathon
+Hi NuCypherinos, we're currently in the midst of two hackathons: ETH Cape Town and Ethereal Virtual Hackathon. Check below for the relevant details.
 
-Hi NuCypherinos,
+## ETH Cape Town
+
+Welcome to the Mother City! We have a $1,250 bounty for the best NuCypher-related tooling and a $1,250 bounty for the best application built with NuCypher technology.
+
+## Ethereal Virtual Hackathon
 
 Welcome to the Ethereal Virtual Hackathon! We have two $2,500 bounties: for the best NuCypher-related [tooling](https://github.com/nucypher/hackathon/issues/5) and the [best application](https://github.com/nucypher/hackathon/issues/4) built with NuCypher technology.
 
