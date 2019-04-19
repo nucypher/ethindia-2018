@@ -4,7 +4,7 @@ Hi NuCypherinos, we're currently in the midst of two hackathons: ETH Cape Town a
 
 ## ETH Cape Town
 
-Welcome to the Mother City! We have a $1,250 bounty for the best NuCypher-related tooling and a $1,250 bounty for the best application built with NuCypher technology.
+Welcome to the Mother City! We have $3,000 total in bounties to be distributed to the most deserving project(s) as determined by our judges.
 
 ## Ethereal Virtual Hackathon
 
