@@ -1,10 +1,6 @@
 # NuCypher Hackathon Guidelines
 
-Hi NuCypherinos, we're currently in the midst of two hackathons: ETH Cape Town and Ethereal Virtual Hackathon. Check below for the relevant details.
-
-## ETH Cape Town
-
-Welcome to the Mother City! We have $3,000 total in bounties to be distributed to the most deserving project(s) as determined by our judges.
+Hi NuCypherinos,
 
 ## Ethereal Virtual Hackathon
 
@@ -32,12 +28,12 @@ Welcome to the Ethereal Virtual Hackathon! We have two $2,500 bounties: for the 
 ## Buidling
 
 ### Documentation
-Check out our [development guide](https://nucypher.readthedocs.io/en/latest/) to start buidling with NuCypher.
+Check out our [development guide](https://docs.nucypher.com/en/latest/) to start buidling with NuCypher.
  
 ### Connecting to a Fleet
 
 #### Running a Local Network
-Simulate the NuCypher network locally by running a [local development fleet](https://nucypher.readthedocs.io/en/latest/demos/local_fleet_demo.html#local-development-fleet-testing). 
+Simulate the NuCypher network locally by running a [local development fleet](https://docs.nucypher.com/en/latest/demos/local_fleet_demo.html#local-development-fleet-testing). 
 
 #### Connecting to the DevNet
 
@@ -56,7 +52,7 @@ For more detailed information see our official [documentation](https://docs.nucy
 
 ### Sample Demos
 Sample demo applications are available:
-* [Finnegan's Wake](https://nucypher.readthedocs.io/en/latest/demos/finnegans_wake_demo.html)
-* [Heartbeat Demo](https://nucypher.readthedocs.io/en/latest/demos/heartbeat_demo.html)
+* [Finnegan's Wake](https://docs.nucypher.com/en/latest/demos/finnegans_wake_demo.html)
+* [Heartbeat Demo](https://docs.nucypher.com/en/latest/demos/heartbeat_demo.html)
 
 **HAPPY HACKING!**
