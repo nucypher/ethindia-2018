@@ -2,34 +2,44 @@
 
 Hi NuCypherinos,
 
-## Ethereal Virtual Hackathon
+## ETHBerlin
 
-Welcome to the Ethereal Virtual Hackathon! We have two $2,500 bounties: for the best NuCypher-related [tooling](https://github.com/nucypher/hackathon/issues/5) and the [best application](https://github.com/nucypher/hackathon/issues/4) built with NuCypher technology.
+ Welcome to ETHBerlin Zwei!
 
-## Technologies
+The NuCypher network facilitates end-to-end encrypted data sharing for distributed apps and protocols. Use our tools and network to build privacy into your Dapp and earn your share of a $2500 USD bounty pool.
+
+### To Qualify for the NuCypher Bounty
+* Your project must be open-sourced
+* Your project must be submitted before the official end time (check with ETHBerlin organizers for end time)
+* You must use one of NuCypher's technologies in your hack
+
+### Judging Criteria
+* Novelty of Use Case
+* Difficulty of Technical Implementation
+* Usefulness of the Submission
+
+### Prizes
+Up to $2500 USD that can be distributed as we (the judges) see fit.
+
+
+## Resources
+We have a workshop scheduled for 2 pm, August 23rd just after lunch!!
 
 ### Proxy Re-encryption
-  * [NuCypher Network](https://github.com/nucypher/nucypher/) - the proxy re-encryption network itself 
-  * [pyUmbral](https://github.com/nucypher/pyUmbral/) - Python reference implementation of Umbral, our threshold proxy re-encryption scheme
-  * [Presentation Slides](https://github.com/nucypher/slides/blob/ETHSingapore/slides.pdf) explaining proxy re-encryption and NuCypher
-  * [Whitepaper](https://github.com/nucypher/whitepaper/blob/master/whitepaper.pdf) - A proxy re-encryption network to empower privacy in decentralized systems
-  * [Umbral Specification](https://github.com/nucypher/umbral-doc/blob/master/umbral-doc.pdf) - if you want to look at the math behind Umbral
- 
+* Our development guide to start building with NuCypher: https://docs.nucypher.com
+* NuCypher Network - the proxy re-encryption network itself https://nucypher.dev/nucypher
+
 ### Fully Homomorphic Encryption
-  * [NuFHE](https://github.com/nucypher/nufhe/) - a GPU-accelerated fully homomorphic encryption library
-  * [Sputnik](https://github.com/nucypher/sputnik/) - an assembly language and interpreter built using NuFHE to execute the first-ever fully homomorphic smart contract
+* NuFHE - a GPU-accelerated fully homomorphic encryption library https://nucypher.dev/nufhe
 
+### Discord and IRL Help
+If you need support with your hack or simply want to jam on some ideas, we'll be around all week at ETHBerlin and Dappcon or use Discord. Jump in #hackathons and start asking away https://discord.gg/7rmXa3S
 
-## Community Links
-* [Website](https://nucypher.com/)
-* [Discord](https://discord.gg/7rmXa3S) - our main development channel; feel free to jump in with technical questions for our team
+### NuCypher Forum
+A forum where we post and discuss NuCypher technical issues and other ongoing updates and changes. https://forum.nucypher.com
 
+Some ideas from past hacks: https://blog.nucypher.com/ethny-nucypher
 
-## Buidling
-
-### Documentation
-Check out our [development guide](https://docs.nucypher.com/en/latest/) to start buidling with NuCypher.
- 
 ### Connecting to a Fleet
 
 #### Running a Local Network
