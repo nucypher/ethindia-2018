@@ -2,9 +2,9 @@
 
 Hi NuCypherinos,
 
-## ETHBerlin
+## ETHBoston
 
- Welcome to ETHBerlin Zwei!
+ Welcome to ETHBoston!
 
 The NuCypher network facilitates end-to-end encrypted data sharing for distributed apps and protocols. Use our tools and network to build privacy into your Dapp and earn your share of a $2500 USD bounty pool.
 
@@ -21,9 +21,8 @@ The NuCypher network facilitates end-to-end encrypted data sharing for distribut
 ### Prizes
 Up to $2500 USD that can be distributed as we (the judges) see fit.
 
-
 ## Resources
-We have a workshop scheduled for 2 pm, August 23rd just after lunch!!
+We have a webinar workshop scheduled for 9:30 PM-9:55 PM, Room B108, Managing secrets in your DApp with NuCypher
 
 ### Proxy Re-encryption
 * Our development guide to start building with NuCypher: https://docs.nucypher.com
