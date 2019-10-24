@@ -39,15 +39,9 @@ A forum where we post and discuss NuCypher technical issues and other ongoing up
 
 Some ideas from past hacks: https://blog.nucypher.com/ethny-nucypher
 
-### Connecting to the Network
+### Connecting to the Testnet
 
-#### Connecting to the DevNet
-
-Here a list of URI seed node URIs you can use to connect to the NuCypher Network on Goerli and issues policies:
-* 165.22.21.214:9151
-* 206.81.17.135:9151
-* 99.225.32.230:9151
-* 13.48.47.157:9151
+Connect to the NuCypher Network on the Goerli testnet using: discover.nucypher.network:9151
 
 ### Sample Demos
 Sample demo applications are available:
