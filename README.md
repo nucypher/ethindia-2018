@@ -2,15 +2,15 @@
 
 Hi NuCypherinos,
 
-## ETHBoston
+## ETHWaterloo
 
- Welcome to ETHBoston!
+ Welcome to ETHWaterloo!
 
 The NuCypher network facilitates end-to-end encrypted data sharing for distributed apps and protocols. Use our tools and network to build privacy into your Dapp and earn your share of a $2500 USD bounty pool.
 
 ### To Qualify for the NuCypher Bounty
 * Your project must be open-sourced
-* Your project must be submitted before the official end time (check with ETHBerlin organizers for end time)
+* Your project must be submitted before the official end time (check with ETHWaterloo organizers for end time)
 * You must use one of NuCypher's technologies in your hack
 
 ### Judging Criteria
@@ -22,7 +22,7 @@ The NuCypher network facilitates end-to-end encrypted data sharing for distribut
 Up to $2500 USD that can be distributed as we (the judges) see fit.
 
 ## Resources
-We have a webinar workshop scheduled for 9:30 PM-9:55 PM, Room B108, Managing secrets in your DApp with NuCypher
+We have a webinar workshop, Managing secrets in your DApp with NuCypher, times TBD
 
 ### Proxy Re-encryption
 * Our development guide to start building with NuCypher: https://docs.nucypher.com
