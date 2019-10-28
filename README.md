@@ -32,7 +32,7 @@ We have a webinar workshop, Managing secrets in your DApp with NuCypher, times T
 * NuFHE - a GPU-accelerated fully homomorphic encryption library https://nucypher.dev/nufhe
 
 ### Discord and IRL Help
-If you need support with your hack or simply want to jam on some ideas, we'll be around all week at ETHBerlin and Dappcon or use Discord. Jump in #hackathons and start asking away https://discord.gg/7rmXa3S
+If you need support with your hack or simply want to jam on some ideas, we'll be around all week at ETHWaterloo or use Discord. Jump in #hackathons and start asking away https://discord.gg/7rmXa3S
 
 ### NuCypher Forum
 A forum where we post and discuss NuCypher technical issues and other ongoing updates and changes. https://forum.nucypher.com
