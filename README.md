@@ -40,7 +40,7 @@ A forum where we post and discuss NuCypher technical issues and other ongoing up
 Some ideas from past hacks: https://blog.nucypher.com/ethny-nucypher
 
 ### Connecting to the Testnet
-
+If you're going to hack using our Testnet then use this branch for the hackathon: https://github.com/cygnusv/nucypher/tree/cli-demo
 Connect to the NuCypher Network on the Goerli testnet using: discover.nucypher.network:9151
 
 ### Sample Demos
